@@ -1,0 +1,51 @@
+* {
+    font-family: "Lucida Console", "Courier New", "monospace";
+}
+
+
+h1 {
+    font-weight: bold;
+    color: red;
+    font-size:8vw;
+
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #666666;
+  background-color:bisque;
+}
+
+.form input{
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+    
+  }
+  
+  .form textarea{
+    width: 90%;
+    margin: 0.5rem;
+    
+  }
+
+  .form button{
+    padding: 0.5rem 1em;
+    border: none;
+    background: rgb(100,200,255);
+    cursor: pointer;
+    margin: 10px;
+  }
