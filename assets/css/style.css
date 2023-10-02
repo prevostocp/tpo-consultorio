@@ -1,19 +1,37 @@
 * {
     font-family: "Lucida Console", "Courier New", "monospace";
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0; */
+}
+
+nav a{
+  text-decoration:none;
+  color: inherit;
+  font-size:14px;
+}
+
+nav li{
+  display:inline-block;
+  width:10%;
+  padding:5px 10px;
+  background-color:#000;
+  border:1px solid #000;
+  text-align:center;
+  color:#fff;
+}
+
+nav li:hover{
+  background-color:#fff;
+  color:#000;
 }
 
 
 h1 {
     font-weight: bold;
     color: red;
-    font-size:8vw;
-
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-
+    font-size:4vw;
 }
 
 .form {
